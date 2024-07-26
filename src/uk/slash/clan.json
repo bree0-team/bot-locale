@@ -1,85 +1,85 @@
 {
-  "name": "клан",
+  "name": "",
   "list": {
-    "name": "список",
-    "description": "Список кланів"
+    "name": "",
+    "description": ""
   },
   "members": {
-    "name": "учасники",
-    "description": "Список учасників клану",
+    "name": "",
+    "description": "",
     "options": {
       "clan": {
-        "name": "клан",
-        "description": "Клан для перевірки"
+        "name": "",
+        "description": ""
       }
     }
   },
   "leave": {
-    "name": "вийти",
-    "description": "Вийти з клану"
+    "name": "",
+    "description": ""
   },
   "invite": {
-    "name": "запросити",
-    "description": "Запросити учасника в клан",
+    "name": "",
+    "description": "",
     "options": {
       "user": {
-        "name": "учасник",
-        "description": "Виберіть учасника, якого ви хочете запросити в клан"
+        "name": "",
+        "description": ""
       }
     }
   },
   "kick": {
-    "name": "вигнати",
-    "description": "Вигнати учасника з клану",
+    "name": "",
+    "description": "",
     "options": {
       "user": {
-        "name": "учасник",
-        "description": "Виберіть учасника, якого потрібно вигнати з клану"
+        "name": "",
+        "description": ""
       }
     }
   },
   "rank": {
-    "name": "ранг",
-    "description": "Видати ранг учаснику клана",
+    "name": "",
+    "description": "",
     "options": {
       "user": {
-        "name": "учасник",
-        "description": "Виберіть учасника, якому потрібно видати ранг"
+        "name": "",
+        "description": ""
       },
       "rank": {
-        "name": "ранг",
-        "description": "Виберіть ранг",
+        "name": "",
+        "description": "",
         "choices": {
-          "Chief": "Керівник",
-          "Captain": "Капітан",
-          "Recruiter": "Рекрутер",
-          "Member": "Учасник"
+          "Chief": "",
+          "Captain": "",
+          "Recruiter": "",
+          "Member": ""
         }
       }
     }
   },
   "create": {
-    "name": "створити",
-    "description": "Створити клан",
+    "name": "",
+    "description": "",
     "options": {
       "emoji": {
-        "name": "емодзі",
-        "description": "Введіть Емодзі (тільки стандартні)"
+        "name": "",
+        "description": ""
       },
       "name": {
-        "name": "назва",
-        "description": "Введіть назву клану"
+        "name": "",
+        "description": ""
       }
     }
   },
   "role": {
-    "name": "ролі",
+    "name": "",
     "list": {
-      "name": "список",
-      "description": "Список ролей клану"
+      "name": "",
+      "description": ""
     },
     "new": {
-      "name": "створити",
+      "name": "",
       "description": "",
       "options": {
         "name": {
@@ -142,6 +142,10 @@
     "description": ""
   },
   "ad": {
+    "name": "",
+    "description": ""
+  },
+  "delete": {
     "name": "",
     "description": ""
   }
