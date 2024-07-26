@@ -1,24 +1,24 @@
 {
   "actions": {
-    "reply": "",
-    "edit": "",
-    "resolve": "",
-    "delete": ""
+    "reply": "Reply",
+    "edit": "Edit",
+    "resolve": "Resolved",
+    "delete": "Delete"
   },
-  "deleted": "",
-  "edited": "",
+  "deleted": "Message from {user} has been deleted",
+  "edited": "Your message has been edited",
   "modal": {
-    "title": "",
-    "label": ""
+    "title": "Write a message",
+    "label": "Title (optional)"
   },
-  "replied": "",
-  "replied_at": "",
-  "resolved": "",
-  "resolved_at": "",
+  "replied": "You replied to the message",
+  "replied_at": "Replied At",
+  "resolved": "You marked the message as resolved",
+  "resolved_at": "Resolved At",
   "error": {
-    "user_no_rights": "",
-    "not_in_this_channel": "",
-    "you_dont_have_rights": "",
-    "already_resolved": ""
+    "user_no_rights": "You do not have the rights to interact with this message",
+    "not_in_this_channel": "The Question / Answer function is not enabled in this channel",
+    "you_dont_have_rights": "You don't have permission to perform this action",
+    "already_resolved": "The message is already resolved"
   }
 }
