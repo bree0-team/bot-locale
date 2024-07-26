@@ -1,14 +1,14 @@
 {
-  "name": "nickname",
-  "description": "Change member nickname",
+  "name": "",
+  "description": "",
   "options": {
     "user": {
-      "name": "user",
-      "description": "Select who needs to change the nickname"
+      "name": "",
+      "description": ""
     },
     "nick": {
-      "name": "nick",
-      "description": "New nickname (leave blank to reset)"
+      "name": "",
+      "description": ""
     }
   }
 }
