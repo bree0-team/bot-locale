@@ -1,10 +1,10 @@
 {
-  "name": "rank",
-  "description": "Get your rank or another member",
+  "name": "",
+  "description": "",
   "options": {
     "user": {
-      "name": "user",
-      "description": "Select the member whose rank you want to view"
+      "name": "",
+      "description": ""
     }
   }
 }
