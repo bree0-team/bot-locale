@@ -1,33 +1,33 @@
 {
-  "title": "",
-  "current": "",
-  "desired": "",
-  "status": "",
+  "title": "Request to change nickname from {user}",
+  "current": "Current",
+  "desired": "Desired",
+  "status": "Status",
   "statuses": {
-    "accepted": "",
-    "rejected": "",
-    "cleared": "",
-    "assigned": ""
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "cleared": "Cleared",
+    "assigned": "Assigned"
   },
-  "executer": "",
-  "changed_at": "",
-  "rejected_at": "",
+  "executer": "Executor",
+  "changed_at": "Changed At",
+  "rejected_at": "Rejected At",
   "buttons": {
-    "accept": "",
-    "reject": "",
-    "clear": "",
-    "assign": ""
+    "accept": "Accept",
+    "reject": "Reject",
+    "clear": "Clear",
+    "assign": "Assign"
   },
-  "assign_modal": "",
+  "assign_modal": "Set another nickname",
   "write_modal": {
-    "title": "",
-    "placeholder": ""
+    "title": "Request nickname",
+    "placeholder": "Baby Shark"
   },
   "error": {
-    "not_in_this_channel": "",
-    "you_dont_have_rights": "",
-    "already_managed": "",
-    "not_on_server": "",
-    "no_rights": ""
+    "not_in_this_channel": "This channel does not include managing the nicknames of members",
+    "you_dont_have_rights": "You don't have permission to perform this action",
+    "already_managed": "Member nickname is already managed",
+    "not_on_server": "Error: Member is not on the server",
+    "no_rights": "I do not have the rights to modify the member's nickname"
   }
 }
