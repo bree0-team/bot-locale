@@ -1,20 +1,23 @@
 {
   "forbidden": {
     "channel": {
-      "missing_permission": "I do not have permission to create a channel"
+      "missing_permission": ""
     },
     "user": {
-      "missing_permission": "I do not have the rights to modify the member"
+      "missing_permission": ""
     }
   },
   "notfound": {
-    "unknown_member": "Unknown Member",
-    "unknown_emoji": "Unknown Emoji",
-    "unknown_voice": "You are not in the voice channel",
-    "unknown_role": "Unknown Role",
-    "unknown_channel": "Channel is unknown or deleted"
+    "unknown_member": "",
+    "unknown_emoji": "",
+    "unknown_voice": "",
+    "unknown_role": "",
+    "unknown_channel": ""
   },
   "servererror": {
-    "valid_url": "This link is not valid"
+    "valid_url": ""
+  },
+  "rate_limit": {
+    "interactions": ""
   }
 }
