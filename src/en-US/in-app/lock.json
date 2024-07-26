@@ -1,8 +1,8 @@
 {
-  "open": "",
-  "close": "",
+  "open": "{user} opened {channel}",
+  "close": "{user} closed {channel}",
   "reason": {
-    "open": "",
-    "close": ""
+    "open": "{user} opened the channel",
+    "close": "{user} closed the channel"
   }
 }
