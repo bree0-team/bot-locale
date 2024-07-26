@@ -6,6 +6,9 @@
   "scripts": {
     "start:bot": "node --enable-source-maps src/index.ts"
   },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/package/@bree0/bot-locale"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bree0-team/bot-locale.git"
