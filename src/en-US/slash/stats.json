@@ -1,46 +1,46 @@
 {
-  "name": "",
+  "name": "stats",
   "user": {
-    "name": "",
-    "description": "",
+    "name": "user",
+    "description": "View your activity statistics or another member",
     "options": {
       "user": {
-        "name": "",
-        "description": ""
+        "name": "user",
+        "description": "Select the member whose statistics you want to view"
       }
     }
   },
   "channel": {
-    "name": "",
-    "description": "",
+    "name": "channel",
+    "description": "View the channel's activity statistics",
     "options": {
       "channel": {
-        "name": "",
-        "description": ""
+        "name": "channel",
+        "description": "Select the channel whose statistics you want to view"
       }
     }
   },
   "qa": {
-    "name": "",
-    "description": "",
+    "name": "qa",
+    "description": "Check the statistics of question/answer",
     "options": {
       "channel": {
-        "name": "",
-        "description": ""
+        "name": "channel",
+        "description": "Select the channel whose statistics you want to view"
       },
       "user": {
-        "name": "",
-        "description": ""
+        "name": "user",
+        "description": "Select the member whose statistics you want to view"
       }
     }
   },
   "mun": {
-    "name": "",
-    "description": "",
+    "name": "mun",
+    "description": "Check the statistics of the Manage users nickname",
     "options": {
       "user": {
-        "name": "",
-        "description": ""
+        "name": "user",
+        "description": "Select the member whose statistics you want to view"
       }
     }
   }
