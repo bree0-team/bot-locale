@@ -1,1 +1,1 @@
-# bot-locale
+# Bree0 Bot Locale [![Crowdin](https://badges.crowdin.net/bree0-bot-new/localized.svg)](https://crowdin.com/project/bree0-bot-new)

@@ -1,0 +1,27 @@
+{
+  "name": "@bree0-team/bot-locale",
+  "version": "1.0.0",
+  "description": "Bree0 Bot Translation Package",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start:bot": "node --enable-source-maps src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bree0-team/bot-locale.git"
+  },
+  "keywords": [
+    "discord",
+    "bree0",
+    "locale"
+  ],
+  "author": "tophackr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bree0-team/bot-locale/issues"
+  },
+  "homepage": "https://github.com/bree0-team/bot-locale#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.12"
+  }
+}

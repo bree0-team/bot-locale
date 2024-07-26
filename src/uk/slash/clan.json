@@ -1,0 +1,148 @@
+{
+  "name": "клан",
+  "list": {
+    "name": "список",
+    "description": "Список кланів"
+  },
+  "members": {
+    "name": "учасники",
+    "description": "Список учасників клану",
+    "options": {
+      "clan": {
+        "name": "клан",
+        "description": "Клан для перевірки"
+      }
+    }
+  },
+  "leave": {
+    "name": "вийти",
+    "description": "Вийти з клану"
+  },
+  "invite": {
+    "name": "запросити",
+    "description": "Запросити учасника в клан",
+    "options": {
+      "user": {
+        "name": "учасник",
+        "description": "Виберіть учасника, якого ви хочете запросити в клан"
+      }
+    }
+  },
+  "kick": {
+    "name": "вигнати",
+    "description": "Вигнати учасника з клану",
+    "options": {
+      "user": {
+        "name": "учасник",
+        "description": "Виберіть учасника, якого потрібно вигнати з клану"
+      }
+    }
+  },
+  "rank": {
+    "name": "ранг",
+    "description": "Видати ранг учаснику клана",
+    "options": {
+      "user": {
+        "name": "учасник",
+        "description": "Виберіть учасника, якому потрібно видати ранг"
+      },
+      "rank": {
+        "name": "ранг",
+        "description": "Виберіть ранг",
+        "choices": {
+          "Chief": "Керівник",
+          "Captain": "Капітан",
+          "Recruiter": "Рекрутер",
+          "Member": "Учасник"
+        }
+      }
+    }
+  },
+  "create": {
+    "name": "створити",
+    "description": "Створити клан",
+    "options": {
+      "emoji": {
+        "name": "емодзі",
+        "description": "Введіть Емодзі (тільки стандартні)"
+      },
+      "name": {
+        "name": "назва",
+        "description": "Введіть назву клану"
+      }
+    }
+  },
+  "role": {
+    "name": "ролі",
+    "list": {
+      "name": "список",
+      "description": "Список ролей клану"
+    },
+    "new": {
+      "name": "створити",
+      "description": "",
+      "options": {
+        "name": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "delete": {
+      "name": "",
+      "description": "",
+      "options": {
+        "role": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "rename": {
+      "name": "",
+      "description": "",
+      "options": {
+        "role": {
+          "name": "",
+          "description": ""
+        },
+        "name": {
+          "name": "",
+          "description": ""
+        }
+      }
+    },
+    "give": {
+      "name": "",
+      "description": "",
+      "options": {
+        "user": {
+          "name": "",
+          "description": ""
+        },
+        "role": {
+          "name": "",
+          "description": ""
+        }
+      }
+    }
+  },
+  "transfer": {
+    "name": "",
+    "description": "",
+    "options": {
+      "user": {
+        "name": "",
+        "description": ""
+      }
+    }
+  },
+  "appearance": {
+    "name": "",
+    "description": ""
+  },
+  "ad": {
+    "name": "",
+    "description": ""
+  }
+}
