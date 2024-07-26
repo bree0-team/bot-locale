@@ -1,10 +1,10 @@
 {
-  "name": "",
-  "description": "",
+  "name": "members",
+  "description": "List of members in the role",
   "options": {
     "role": {
-      "name": "",
-      "description": ""
+      "name": "role",
+      "description": "Select the role whose members you want to see"
     }
   }
 }
