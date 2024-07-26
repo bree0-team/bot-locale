@@ -1,46 +1,46 @@
 {
   "author": {
-    "label": "",
-    "description": "",
+    "label": "Author",
+    "description": "Name, URL, Icon URL",
     "options": {
-      "name": "",
-      "url": "",
-      "iconUrl": ""
+      "name": "Author name",
+      "url": "Author URL",
+      "iconUrl": "Author icon URL"
     }
   },
   "body": {
-    "label": "",
-    "description": "",
+    "label": "Body",
+    "description": "Color, Title, URL, Description",
     "options": {
-      "color": "",
-      "title": "",
-      "url": "",
-      "description": ""
+      "color": "HEX color",
+      "title": "Title",
+      "url": "URL",
+      "description": "Description"
     }
   },
   "fields": {
-    "label": "",
-    "description": "",
+    "label": "Fields",
+    "description": "Array of fields: Name, Value, Inline",
     "options": {
-      "name": "",
-      "value": "",
-      "inline": ""
+      "name": "Name",
+      "value": "Value",
+      "inline": "Inline"
     }
   },
   "images": {
-    "label": "",
-    "description": "",
+    "label": "Images",
+    "description": "Image, Thumbnail",
     "options": {
-      "image": "",
-      "thumbnail": ""
+      "image": "Image",
+      "thumbnail": "Thumbnail"
     }
   },
   "footer": {
-    "label": "",
-    "description": "",
+    "label": "Footer",
+    "description": "Text, icon URL",
     "options": {
-      "text": "",
-      "iconUrl": ""
+      "text": "Text",
+      "iconUrl": "Icon URL"
     }
   }
 }
