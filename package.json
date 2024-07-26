@@ -1,5 +1,5 @@
 {
-  "name": "@bree0-team/bot-locale",
+  "name": "@bree0/bot-locale",
   "version": "1.0.0",
   "description": "Bree0 Bot Translation Package",
   "main": "./src/index.ts",
