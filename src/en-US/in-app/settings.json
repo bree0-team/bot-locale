@@ -1,294 +1,289 @@
 {
-  "settings": "Settings",
-  "select_module": "Manage the appearance, functionality, and behavior of the bot using module settings. Modify the parameters to customize the bot to your needs.\n\nSelect a module to continue the configuration.",
+  "settings": "",
+  "select_module": "",
   "options": {
-    "base": "Main",
-    "clan": "Clan",
-    "commands": "Commands",
-    "afk": "Move to AFK",
-    "activity": "Activity (voice, text)",
-    "xp": "Levels",
-    "mun": "Managing users nicknames",
-    "roles": "Role Management",
-    "qa": "Question / Answer",
-    "interaction": "Interaction Duration",
-    "banner": "Server Banner"
+    "base": "",
+    "clan": "",
+    "commands": "",
+    "afk": "",
+    "activity": "",
+    "xp": "",
+    "mun": "",
+    "roles": "",
+    "qa": "",
+    "interaction": "",
+    "banner": ""
   },
-  "send_interface": "Send interface to channel",
+  "send_interface": "",
   "general": {
-    "description": "Basic settings are parameters that allow you to change the general functionality and external characteristics of the bot. Modify the basic parameters to customize the operation of the bot to your needs and preferences.\n\nSelect the appropriate section for configuration.",
+    "description": "",
     "options": {
-      "default_server_language": "Default server language",
-      "embed_color": "Color of system messages",
-      "timezone": "Time Zone"
+      "default_server_language": "",
+      "embed_color": "",
+      "timezone": ""
     },
     "server_language": {
-      "name": "Server Language",
-      "description": "**Server default language** is the main language of communication and interaction on the community server. This language is set as the default for all participants (except for participants who have forcibly changed the bot's language) to ensure common understanding and communication.\n\nSetting the server default language allows to define the main language of communication and interaction on the server. This contributes to more effective communication and increases understanding among community members, creating a unified space for exchanging information and ideas."
+      "name": "",
+      "description": ""
     },
     "system_color": {
-      "description": "**System Message Color** - this parameter will be used to display important system messages as embedded cards in the chat. This parameter helps highlight important messages and make them more noticeable to users. Choose a color that matches your style or helps better organize information in Discord chat. Change this parameter at your discretion to make your communication experience more convenient and aesthetic.",
-      "set_color": "Set color",
+      "description": "",
+      "set_color": "",
       "modal": {
-        "title": "Change system color"
+        "title": ""
       }
     },
-    "timezone": "Standard server time zone displayed in the bot"
+    "timezone": ""
   },
   "clan": {
-    "description": "Clan settings allow you to manage the appearance, functionality, and behavior of the clan using various modules. Modify the parameters to customize the clan to your needs and preferences.\n\nSelect the appropriate section for configuration.",
+    "description": "",
     "options": {
-      "manage": "Who manages the clan",
-      "command_rank_access": "Command rights",
-      "appearance": "Appearance settings",
-      "transfer": "Clan Transfer",
-      "limit": "Member Limit",
-      "channels": "Channel rights",
-      "name_pattern": "Name Pattern",
-      "role": "Clan role",
-      "ad": "Clan Advertising"
+      "manage": "",
+      "command_rank_access": "",
+      "appearance": "",
+      "transfer": "",
+      "limit": "",
+      "channels": "",
+      "name_pattern": "",
+      "role": "",
+      "ad": ""
     },
     "transfer": {
-      "description": "This is the process of transferring control and responsibility for the clan from one member to another.",
-      "allow": "Allow transferring clan"
+      "description": "",
+      "allow": ""
     },
     "manage": {
-      "description": "Creating and deleting clans is available to any user. However, you can configure certain roles or allow members to create/delete a clan with them.",
-      "members": "Members manage clans",
-      "allowed_roles": "Authorized roles manage clans",
-      "roles": "Allowed roles",
-      "admin_have_rights": "Default administrators have the right to manage clans"
+      "description": "",
+      "members": "",
+      "allowed_roles": "",
+      "roles": "",
+      "admin_have_rights": ""
     },
     "members_limit": {
-      "description": "These settings allow you to change the limit on the number of members who can join the clan.",
+      "description": "",
       "modal": {
-        "title": "Change clan members"
+        "title": ""
       }
     },
-    "non_config_commands": "Non-configurable commands",
-    "select_rank": "Select rank",
-    "appearance": "Settings allow clan members to manage various parameters such as clan avatar, banner, description, and color. Users can easily change these elements and customize them according to individual preferences and clan style. This allows for creating a unique and memorable appearance for the clan and contributes to community building.",
+    "non_config_commands": "",
+    "select_rank": "",
+    "appearance": "",
     "channel": {
-      "description": "These settings allow you to configure the category in which clan channels will be created, as well as configure various permissions for clan members based on their rank.",
+      "description": "",
       "options": {
-        "voiceChannel": "Create a voice channel",
-        "textChannel": "Create a text channel",
-        "userRights": "Set permissions for channel members",
-        "name": "Change the name of the channel",
-        "delete": "Delete channel",
-        "limitMembers": "Set Member Limit",
-        "rights": "Grant/revoke access to the channel",
-        "kickUser": "Kick a member from the channel"
+        "voiceChannel": "",
+        "textChannel": "",
+        "userRights": "",
+        "name": "",
+        "delete": "",
+        "limitMembers": "",
+        "rights": "",
+        "kickUser": ""
       },
       "category": {
-        "name": "Clans",
-        "for_create": "Category in which channels will be created",
-        "not_set": "Category for clan channels is not set, create a new one?",
-        "created": "Category created, continue?"
+        "name": "",
+        "for_create": "",
+        "not_set": "",
+        "created": ""
       },
-      "interface": "Interface",
+      "interface": "",
       "edit_limit": {
-        "description": "Maximum limit of channels for creation",
+        "description": "",
         "modal": {
-          "title": "Change channel limit"
+          "title": ""
         },
-        "button": "Change limit"
+        "button": ""
       }
     },
     "name_pattern": {
-      "description": "**Clan name pattern** is an established format or structure that needs to be followed when naming clans. This may include certain characters, words, or numbers that must be present in the clan name for consistency and ease of clan identification.",
-      "pattern": "Pattern",
+      "description": "",
+      "pattern": "",
       "modal": {
-        "title": "Change the name pattern"
+        "title": ""
       }
     },
     "role": {
-      "description": "Settings allow you to create a role for the clan. If the setting is enabled, the role will be created, if disabled - the role will not be created.",
-      "allow": "Create a role for the clan",
-      "footer": "Be careful with this setting, when changing the clan role status, clans are immediately created or deleted"
+      "description": "",
+      "allow": "",
+      "footer": ""
     },
     "ad": {
-      "description": "Clan advertising settings allow you to choose a channel for advertising, enable or disable advertising, and set a delay before sending advertising.",
+      "description": "",
       "modal": {
-        "title": "Change advertisement delay"
+        "title": ""
       }
     }
   },
   "commands": {
-    "description": "Command settings allow administrators to determine the delay of command usage, set a hidden message, adjust the visibility of the response, as well as manage the display of command usage. This allows to personalize user experience and ensure more efficient interaction with the bot.",
+    "description": "",
     "options": {
-      "ephemeral": "Hidden message",
-      "usage": "Command usage",
-      "reply": "Reply to command"
+      "ephemeral": "",
+      "usage": "",
+      "reply": ""
     },
     "cooldown": {
-      "description": "Delay settings include an option to set a time delay for using a command and the type of delay.",
+      "description": "",
       "type": {
-        "undefined": "No delay",
-        "SERVER": "Server",
-        "USER": "User"
+        "undefined": "",
+        "SERVER": "",
+        "USER": ""
       },
       "modal": {
-        "label": "Delay in seconds"
+        "label": ""
       }
     },
-    "ephemeral": "This setting allows you to choose how the bot's response is displayed: as a hidden message or visible. You can configure it so that responses are visible to everyone or hidden from other chat participants.",
-    "usage": "The display settings of using a command allow you to configure how the user's actions are displayed when using the command. The user can choose to make their actions visible to all chat participants or keep them hidden.",
-    "reply": "Bot response settings for command usage allow you to choose whether the bot will respond to commands entered by the user. The user can configure the bot to respond to commands or remain silent."
+    "ephemeral": "",
+    "usage": "",
+    "reply": ""
   },
   "afk": {
-    "description": "Settings for moving users to the AFK channel after a certain time allow administrators to set automatic moving of users if they show no activity within a certain time interval.",
-    "sleep": "Delay before moving",
-    "channels": "Channels from which the movement will take place",
-    "roles": "Roles that will be ignored during movement",
-    "modal": "Edit delay"
+    "description": "",
+    "sleep": "",
+    "channels": "",
+    "roles": "",
+    "modal": ""
   },
   "activity": {
-    "description": "Participant activity settings may include the ability to customize text and voice activity.",
-    "show_deleted": "Show deleted channels",
+    "description": "",
+    "show_deleted": "",
     "member_types": {
-      "description": "Types of users",
-      "select": "Select user types",
-      "USERS": "Users",
-      "BOTS": "Bots"
+      "description": "",
+      "select": "",
+      "USERS": "",
+      "BOTS": ""
     }
   },
   "xp": {
-    "description": "Assign experience and levels when they send messages or talk in voice channels.",
-    "count": "Experience amount",
+    "description": "",
+    "count": "",
     "options": {
-      "ignored": "Ignored channels and roles",
-      "formula": "Calculation formula for level",
-      "rewards": "Reward Roles",
-      "text_give": "Experience for messages",
-      "voice_give": "Experience for voice activity",
-      "text_voice": "Activity type (Messages, Voice)"
+      "ignored": "",
+      "formula": "",
+      "rewards": "",
+      "text_give": "",
+      "voice_give": "",
+      "text_voice": ""
     },
     "formula": {
-      "description": "You can set the formula by which the level of each member will be calculated",
-      "label": "Formula"
+      "description": "",
+      "label": ""
     },
     "rewards": {
-      "description": "These roles will be automatically assigned to the player upon reaching a certain level.",
-      "type": "Reward type",
+      "description": "",
+      "type": "",
       "types": {
-        "STACKED": "Stacking rewards",
-        "REMOVED": "Remove previous rewards"
+        "STACKED": "",
+        "REMOVED": ""
       }
     },
-    "text_give": "Select the amount of experience per message in minutes",
-    "voice_give": "Select the amount of experience per minute in the voice channel",
+    "text_give": "",
+    "voice_give": "",
     "text_voice": {
-      "description": "Activity type",
-      "select": "Select Activity type",
-      "TEXT": "Messages",
-      "VOICE": "Voice Activity"
+      "description": "",
+      "select": "",
+      "TEXT": "",
+      "VOICE": ""
     }
   },
   "mun": {
-    "description": "Configuring the function of managing participants' nicknames in a specific channel using roles and permissions will help ensure control and security in your community or workspace.",
-    "roles": "Administrative roles",
-    "modal": "Change interface description"
+    "description": "",
+    "roles": "",
+    "modal": ""
   },
-  "roles": "This role will manage the roles you choose.",
+  "roles": "",
   "qa": {
-    "description": "The 'Question-Answer' function allows participants to ask questions and receive answers from staff. Users can ask any questions on various topics, and you will try to provide the most appropriate and informative answers to these questions.",
+    "description": "",
     "db": {
-      "text": "Question from {user}",
-      "resp": "Staff response",
-      "addsResp": "Additional response"
+      "text": "",
+      "resp": "",
+      "addsResp": ""
     },
     "options": {
-      "text": "Question Title",
-      "resp": "Answer to question",
-      "adds_resp": "Additional response to the question",
-      "roles": "Administrative roles",
-      "interface": "Interface"
+      "text": "",
+      "resp": "",
+      "adds_resp": "",
+      "roles": "",
+      "interface": ""
     },
     "resp": {
-      "title": "Response Title",
-      "content": "Response Content"
+      "title": "",
+      "content": ""
     },
-    "interface_modal": "Change interface description",
+    "interface_modal": "",
     "adds_resp": {
-      "title": "Title of additional response",
-      "content": "Additional response content"
+      "title": "",
+      "content": ""
     }
   },
   "banner": {
     "types": {
-      "channels": "Channels",
-      "data_time": "Date and time",
-      "members": "Members",
-      "members_with_status": "Members with status",
-      "members_in_role": "Members in role",
-      "roles": "Roles",
-      "voice": "Members in voice channels"
+      "channels": "",
+      "data_time": "",
+      "members": "",
+      "members_with_status": "",
+      "members_in_role": "",
+      "roles": "",
+      "voice": ""
     },
-    "background": "Background",
-    "elements": "Elements",
+    "background": "",
+    "elements": "",
     "grid": {
-      "on": "Enable grid",
-      "off": "Disable grid"
+      "on": "",
+      "off": ""
     },
     "graph": {
-      "x": "X Coordinate",
-      "y": "Y Coordinate",
-      "scale": "Scale",
-      "color": "Color",
-      "placeholder": "Minimum {min}, Maximum {max}"
-    },
-    "position": {
-      "left": "From the left edge",
-      "center": "Centered",
-      "right": "From the right edge"
+      "x": "",
+      "y": "",
+      "scale": "",
+      "color": "",
+      "placeholder": ""
     },
     "channels": {
-      "description": "Channel Types",
+      "description": "",
       "types": {
-        "text": "Text",
-        "voice": "Voice",
-        "category": "Category"
+        "text": "",
+        "voice": "",
+        "category": ""
       }
     },
     "date_time": {
-      "description": "Date and Time Style",
+      "description": "",
       "styles": {
-        "t": "Short time format (14:00)",
-        "T": "Long time format (14:00:29)",
-        "d": "Short date format (07/09/2020)",
-        "D": "Long date format (07 September 2020)",
-        "f": "Short date and time format (07 September 2020 14:00)",
-        "F": "Long date and time format (Monday, September 07, 2020 14:00)"
+        "t": "",
+        "T": "",
+        "d": "",
+        "D": "",
+        "f": "",
+        "F": ""
       }
     },
     "members": {
-      "description": "Types of users",
+      "description": "",
       "types": {
-        "users": "Users",
-        "apps": "Apps"
+        "users": "",
+        "apps": ""
       }
     },
-    "statuses": "Statuses",
+    "statuses": "",
     "roles": {
-      "description": "Role types",
+      "description": "",
       "types": {
-        "unmanaged": "Normal Roles",
-        "managed": "Integrations"
+        "unmanaged": "",
+        "managed": ""
       }
     },
-    "voice": "Voice Channels"
+    "voice": ""
   },
   "error": {
-    "min_cooldown": "You cannot set a delay less than `{cooldown}`",
-    "afk_min_max": "Cannot set delay less than {min} and greater than {max}",
-    "xp_give_less_zero": "Experience amount cannot be less than 0",
-    "xp_give_from_to": "The amount of experience TO cannot be less than FROM",
-    "mun_missing_channel": "Unable to send interface, channel is not established",
+    "min_cooldown": "",
+    "afk_min_max": "",
+    "xp_give_less_zero": "",
+    "xp_give_from_to": "",
+    "mun_missing_channel": "",
     "banner_graph_min_max": {
-      "x": "Cannot set X coordinates less than {min} and greater than {max}",
-      "y": "Cannot set Y coordinates less than {min} and greater than {max}",
-      "scale": "The scale cannot be set less than {min} and greater than {max}"
+      "x": "",
+      "y": "",
+      "scale": ""
     }
   }
 }
